@@ -1,0 +1,91 @@
+0 info it worked if it ends with ok
+1 info error reading version TypeError: Cannot read property 'node' of undefined
+1 info error reading version     at C:\Program Files\nodejs\node_modules\npm\lib\npm.js:49:38
+1 info error reading version     at Object.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\npm.js:474:3)
+1 info error reading version     at Module._compile (module.js:456:26)
+1 info error reading version     at Object.Module._extensions..js (module.js:474:10)
+1 info error reading version     at Module.load (module.js:356:32)
+1 info error reading version     at Function.Module._load (module.js:312:12)
+1 info error reading version     at Module.require (module.js:364:17)
+1 info error reading version     at require (module.js:380:17)
+1 info error reading version     at C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js:24:11
+1 info error reading version     at Object.<anonymous> (C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js:86:3)
+1 info error reading version  [TypeError: Cannot read property 'node' of undefined]
+2 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+2 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+2 verbose cli   'install',
+2 verbose cli   'https://github.com/FuturesJS/FuturesJS' ]
+3 info using TypeError: Cannot read property 'node' of undefined
+3 info using     at C:\Program Files\nodejs\node_modules\npm\lib\npm.js:49:38
+3 info using     at Object.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\npm.js:474:3)
+3 info using     at Module._compile (module.js:456:26)
+3 info using     at Object.Module._extensions..js (module.js:474:10)
+3 info using     at Module.load (module.js:356:32)
+3 info using     at Function.Module._load (module.js:312:12)
+3 info using     at Module.require (module.js:364:17)
+3 info using     at require (module.js:380:17)
+3 info using     at C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js:24:11
+3 info using     at Object.<anonymous> (C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js:86:3)
+3 info using  npm@%s [TypeError: Cannot read property 'node' of undefined]
+4 info using node@v0.10.34
+5 verbose node symlink C:\Program Files\nodejs\\node.exe
+6 warn package.json ENGame@0.1.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'https://github.com/FuturesJS/FuturesJS', null ]
+9 verbose cache add name=undefined spec="https://github.com/FuturesJS/FuturesJS" args=["https://github.com/FuturesJS/FuturesJS",null]
+10 verbose parsed url { protocol: 'https:',
+10 verbose parsed url   slashes: true,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: 'github.com',
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: 'github.com',
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: '/FuturesJS/FuturesJS',
+10 verbose parsed url   path: '/FuturesJS/FuturesJS',
+10 verbose parsed url   href: 'https://github.com/FuturesJS/FuturesJS' }
+11 silly lockFile f50734b8-s-github-com-FuturesJS-FuturesJS https://github.com/FuturesJS/FuturesJS
+12 verbose lock https://github.com/FuturesJS/FuturesJS C:\Users\Vadym\AppData\Roaming\npm-cache\f50734b8-s-github-com-FuturesJS-FuturesJS.lock
+13 verbose addRemoteTarball [ 'https://github.com/FuturesJS/FuturesJS', null ]
+14 info retry fetch attempt 1 at 22:06:21
+15 verbose fetch to= C:\Users\Vadym\AppData\Local\Temp\npm-12648-C4O6OP8m\github.com\FuturesJS\FuturesJS
+16 http GET https://github.com/FuturesJS/FuturesJS
+17 http 200 https://github.com/FuturesJS/FuturesJS
+18 verbose tar unpack C:\Users\Vadym\AppData\Local\Temp\npm-12648-C4O6OP8m\github.com\FuturesJS\FuturesJS
+19 silly lockFile 0ad68877-b-com-FuturesJS-FuturesJS-unpack tar://C:\Users\Vadym\AppData\Local\Temp\npm-12648-C4O6OP8m\github.com\FuturesJS\FuturesJS-unpack
+20 verbose lock tar://C:\Users\Vadym\AppData\Local\Temp\npm-12648-C4O6OP8m\github.com\FuturesJS\FuturesJS-unpack C:\Users\Vadym\AppData\Roaming\npm-cache\0ad68877-b-com-FuturesJS-FuturesJS-unpack.lock
+21 silly lockFile c91af659-m-github-com-FuturesJS-FuturesJS tar://C:\Users\Vadym\AppData\Local\Temp\npm-12648-C4O6OP8m\github.com\FuturesJS\FuturesJS
+22 verbose lock tar://C:\Users\Vadym\AppData\Local\Temp\npm-12648-C4O6OP8m\github.com\FuturesJS\FuturesJS C:\Users\Vadym\AppData\Roaming\npm-cache\c91af659-m-github-com-FuturesJS-FuturesJS.lock
+23 silly gunzTarPerm modes [ '777', '666' ]
+24 error not a package C:\Users\Vadym\AppData\Local\Temp\npm-12648-C4O6OP8m\github.com\FuturesJS\FuturesJS
+25 silly lockFile 0ad68877-b-com-FuturesJS-FuturesJS-unpack tar://C:\Users\Vadym\AppData\Local\Temp\npm-12648-C4O6OP8m\github.com\FuturesJS\FuturesJS-unpack
+26 silly lockFile 0ad68877-b-com-FuturesJS-FuturesJS-unpack tar://C:\Users\Vadym\AppData\Local\Temp\npm-12648-C4O6OP8m\github.com\FuturesJS\FuturesJS-unpack
+27 silly lockFile c91af659-m-github-com-FuturesJS-FuturesJS tar://C:\Users\Vadym\AppData\Local\Temp\npm-12648-C4O6OP8m\github.com\FuturesJS\FuturesJS
+28 silly lockFile c91af659-m-github-com-FuturesJS-FuturesJS tar://C:\Users\Vadym\AppData\Local\Temp\npm-12648-C4O6OP8m\github.com\FuturesJS\FuturesJS
+29 silly lockFile f50734b8-s-github-com-FuturesJS-FuturesJS https://github.com/FuturesJS/FuturesJS
+30 silly lockFile f50734b8-s-github-com-FuturesJS-FuturesJS https://github.com/FuturesJS/FuturesJS
+31 error Error: ENOENT, open 'C:\Users\Vadym\AppData\Local\Temp\npm-12648-C4O6OP8m\github.com\FuturesJS\FuturesJS-unpack\package.json'
+32 error If you need help, you may report this *entire* log,
+32 error including the npm and node versions, at:
+32 error     <http://github.com/npm/npm/issues>
+33 error System Windows_NT 6.1.7601
+34 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "https://github.com/FuturesJS/FuturesJS"
+35 error cwd C:\Users\Vadym\WebstormProjects\ENGame
+36 error node -v v0.10.34
+37 error npm -v TypeError: Cannot read property 'node' of undefined
+37 error npm -v     at C:\Program Files\nodejs\node_modules\npm\lib\npm.js:49:38
+37 error npm -v     at Object.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\npm.js:474:3)
+37 error npm -v     at Module._compile (module.js:456:26)
+37 error npm -v     at Object.Module._extensions..js (module.js:474:10)
+37 error npm -v     at Module.load (module.js:356:32)
+37 error npm -v     at Function.Module._load (module.js:312:12)
+37 error npm -v     at Module.require (module.js:364:17)
+37 error npm -v     at require (module.js:380:17)
+37 error npm -v     at C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js:24:11
+37 error npm -v     at Object.<anonymous> (C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js:86:3)
+37 error npm -v  [TypeError: Cannot read property 'node' of undefined]
+38 error path C:\Users\Vadym\AppData\Local\Temp\npm-12648-C4O6OP8m\github.com\FuturesJS\FuturesJS-unpack\package.json
+39 error code ENOENT
+40 error errno 34
+41 verbose exit [ 34, true ]

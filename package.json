@@ -1,0 +1,19 @@
+{
+  "name": "ENGame",
+  "version": "0.1.0",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "array-async": "~3.0.0",
+    "express": "^4.10.6",
+    "react": "^0.12.2",
+    "smith.io": "~0.0.37"
+  },
+  "description": "Solution for rank monitoring of multiples games servers",
+  "author": "Pivak Vadym <pivak.vadyme@gmail.com> (http://pivakvadym.ouest-est.org)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pivakvadym/ENGame.git"
+  }
+}
